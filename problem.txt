@@ -1,0 +1,9 @@
+Create a program that will calculate the shortest path between two hexagons in a honeycomb grid.
+
+The grid is a hexagon with 6 sides, each side containing 331 hexagons starting from index 1.
+The center hexagon is index 1, hexagon 2 will be on top of hexagon 1, hexagon 3 will be on the right of hexagon 1, and so on. A clockwise rotation is used.
+The structure should look like a honeycomb grid.
+
+The program should take two hexagon indices as input and output the shortest path between them.
+
+The shortest path is calculated by the number of hexagons traversed, not the distance.
